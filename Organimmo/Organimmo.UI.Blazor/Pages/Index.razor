@@ -1,1 +1,37 @@
 ﻿@page "/"
+@using MudBlazor
+
+<MudTable Items="@Employees" Dense="true" Hover="true" Bordered="true" Striped="true" >
+<ToolBarContent>
+    <MudText Typo="Typo.h6">Test table</MudText>
+    <MudSpacer />
+</ToolBarContent>
+<HeaderContent>
+    <MudTh>Id</MudTh>
+    <MudTh>Name</MudTh>
+    <MudTh>Country</MudTh>
+</HeaderContent>
+<RowTemplate>
+    <MudTd DataLabel="Nr">@Employee.empid</MudTd>
+    <MudTd DataLabel="Sign">@Employee.empname</MudTd>
+    <MudTd DataLabel="Name">@Employee.empcountry</MudTd>
+</RowTemplate>
+</MudTable>
+
+@code
+{
+    private IList<Emp> Employees { get; set; } = new List<Emp>();
+
+    private Emp Employee = new Emp
+    {
+        empid = 1,
+        empname = "Empl1",
+        empcountry = "Belgium"
+    };
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Employees.Add(Employee);
+    }
+}
