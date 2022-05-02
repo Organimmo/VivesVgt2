@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bl", "Bl", "{4654C83C-23B3-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{5BAEF1B1-1DFC-4EE3-B9D3-D34B383B282F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B5EBF523-4CE4-4F57-B1AC-513CBB2C6FF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2AB82C0E-4EAE-4059-8B60-CF9F84DC441F} = {3EA599A3-301C-4C56-A791-401E1703D1C2}
+		{B5EBF523-4CE4-4F57-B1AC-513CBB2C6FF5} = {5BAEF1B1-1DFC-4EE3-B9D3-D34B383B282F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CDB3F98-4650-4312-844E-87330140976B}
