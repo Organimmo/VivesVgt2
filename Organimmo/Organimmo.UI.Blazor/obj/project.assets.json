@@ -1546,26 +1546,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gevae\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\dewin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project_Voortgangstoets2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\dewin\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
       "projectName": "Organimmo.UI.Blazor",
-      "projectPath": "C:\\Project_Voortgangstoets2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
-      "packagesPath": "C:\\Users\\gevae\\.nuget\\packages\\",
-      "outputPath": "C:\\Project_Voortgangstoets2\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
+      "projectPath": "C:\\Users\\dewin\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "packagesPath": "C:\\Users\\dewin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dewin\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gevae\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dewin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1615,7 +1614,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.1, 6.0.1]"
+            "version": "[6.0.4, 6.0.4]"
           }
         ],
         "frameworkReferences": {
@@ -1623,7 +1622,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
