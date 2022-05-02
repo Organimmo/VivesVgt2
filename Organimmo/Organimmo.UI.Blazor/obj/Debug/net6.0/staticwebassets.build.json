@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MUnYlFZ03xQJM9MjIm4ld75SfT8gOMNuMU+civW38G4=",
+  "Hash": "JilDvRXPa3A6RxQN/jgIa49nDjYLBSata8X2tVTn+z8=",
   "Source": "Organimmo.UI.Blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Organimmo.UI.Blazor",
@@ -184,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -218,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -235,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -269,7 +303,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -473,7 +507,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -541,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.jsinterop\\6.0.1\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -644,6 +678,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -1544,7 +1595,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\system.io.pipelines\\6.0.1\\lib\\net6.0\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\.nuget\\packages\\system.io.pipelines\\6.0.2\\lib\\net6.0\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll",
@@ -3485,23 +3536,6 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.dll"
     },
     {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\+r+agyLm.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
-    },
-    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\+sFbS55E.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -3534,23 +3568,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.dll"
-    },
-    {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\+x0nfd+W.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\+xKM2J1I.gz",
@@ -3910,21 +3927,21 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Reader.dll"
     },
     {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\5mWAET+m.gz",
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\5dJE+ZK4.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\5n+BR+y0.gz",
@@ -4248,6 +4265,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\bwcu7+MJ.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\c+HxGG6b.gz",
@@ -4777,23 +4811,6 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.dll"
     },
     {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\gkv6tapn.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\gMn9by8z.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -4930,21 +4947,21 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.Common.dll"
     },
     {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\hQwLrars.gz",
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\hSIG5MrD.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\HT7vVZby.gz",
@@ -5064,23 +5081,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Numerics.dll"
-    },
-    {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\iujcJKeH.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\iy5QogAY.gz",
@@ -5270,6 +5270,23 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Organimmo.UI.Blazor.pdb"
     },
     {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\kjj353+E.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\kozuNbWI.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -5285,6 +5302,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\KSobsYme.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\l2HejLIW.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\l8N2DpsH.gz",
@@ -5491,6 +5542,23 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\MPsUPQ0x.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\mSU86JSC.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -5610,23 +5678,6 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\nNdhiYWz.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\nQxueuDD.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -5744,6 +5795,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\OQbbOuwN.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\oysqtBw4.gz",
@@ -6137,6 +6205,23 @@
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
     },
     {
+      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\T5nnrHbk.gz",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\THZsNM7V.gz",
       "SourceId": "Organimmo.UI.Blazor",
       "SourceType": "Computed",
@@ -6356,23 +6441,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Quic.dll"
-    },
-    {
-      "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\W+AxhgR1.gz",
-      "SourceId": "Organimmo.UI.Blazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\Debug\\net6.0\\build-gz\\wCSGOLcu.gz",
