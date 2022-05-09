@@ -817,3 +817,15 @@ C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\ne
 C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\gCT4GltB.gz
 C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\iLKDyEwx.gz
 C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\bJu+f1ts.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Organimmo.Services.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Organimmo.Services.pdb
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Organimmo.Services.dll.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Organimmo.Services.pdb.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\Organimmo.Services.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\bin\Debug\net6.0\Organimmo.Services.pdb
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\PChGFE9l.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\+CaDmaXS.gz
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.UI.Blazor\obj\Debug\net6.0\build-gz\Mlk+g8Yw.gz
