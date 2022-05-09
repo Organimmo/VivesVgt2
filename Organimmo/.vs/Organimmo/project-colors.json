@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ec798663-a08e-4e0b-b977-28c8f92e3f23": {
+      "ProjectGuid": "ec798663-a08e-4e0b-b977-28c8f92e3f23",
+      "DisplayName": "Organimmo.UI.Blazor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
