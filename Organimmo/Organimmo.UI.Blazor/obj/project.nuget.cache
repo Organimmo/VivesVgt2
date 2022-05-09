@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqQjgFr44H2ncPkEL6MWngV/LPkQM+eOTxIExnMfb2TBqbHmIiaYDdoajo7c0xQn+nBbZZyT/hZLLg1R8IqziQ==",
+  "dgSpecHash": "1nHUxQJ/gO1VFtJEIYu0YZsKTb0GGK/2pkS+0/Va/kP35MOlTi6CGma1byiqvmLqAxTcuF43v1ZqzBzGjLDdpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cbian\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+  "projectFilePath": "C:\\Users\\cbian\\source\\repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512",
     "C:\\Users\\cbian\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\microsoft.aspnetcore.components.6.0.4.nupkg.sha512",
@@ -34,7 +34,7 @@
     "C:\\Users\\cbian\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\cbian\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\cbian\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\cbian\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
+    "C:\\Users\\cbian\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }
