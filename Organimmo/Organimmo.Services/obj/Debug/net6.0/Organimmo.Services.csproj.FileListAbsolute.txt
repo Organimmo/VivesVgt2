@@ -1,0 +1,12 @@
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\bin\Debug\net6.0\Organimmo.Services.deps.json
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\bin\Debug\net6.0\Organimmo.Services.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\bin\Debug\net6.0\Organimmo.Services.pdb
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.csproj.AssemblyReference.cache
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.AssemblyInfoInputs.cache
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.AssemblyInfo.cs
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.csproj.CoreCompileInputs.cache
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\refint\Organimmo.Services.dll
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\Organimmo.Services.pdb
+C:\Users\cbian\source\repos\VivesVgt2\Organimmo\Organimmo.Services\obj\Debug\net6.0\ref\Organimmo.Services.dll
