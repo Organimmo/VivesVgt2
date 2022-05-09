@@ -1,24 +1,48 @@
-﻿@page "/"
+﻿@attribute [RouteAttribute(BlazorRoutes.Translations.Index)]
+
 @using MudBlazor
 
-<MudTable Items="@Translations" SortLabel="Sort By" Dense="false" Hover="false" Bordered="true" Striped="true" Filter="new Func<JsonModel,bool>(FilterFunc1)" >
+<MudTable Items="@Translations" SortLabel="Sort By"  Filter="new Func<JsonModel,bool>(FilterFunc1)" >
     <ToolBarContent>
-        <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0 border bg-light"></MudTextField>
+        <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0 border bg-light"></MudTextField>
     </ToolBarContent>
     <HeaderContent>
         <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Id)">Id</MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Type)">Type</MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Type)">Name</MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.DefaultTranslation)">Default Translation </MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.CurrentTranslation)">Current Translation</MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.SuggestedTranslation)">Suggested Translation </MudTableSortLabel></MudTh>
-        <MudTh></MudTh>
+        <MudTh Class="fw-bold">Actions</MudTh>
     </HeaderContent>
     <RowTemplate>
         <MudTd  DataLabel="Id">@context.Id</MudTd>
         <MudTd DataLabel="Type">@context.Type</MudTd>
+        <MudTd DataLabel="Type">@context.Name</MudTd>
         <MudTd DataLabel="DefaultTranslation">@context.DefaultTranslation</MudTd>
         <MudTd DataLabel="CurrentTranslation">@context.CurrentTranslation</MudTd>
-        <MudTd DataLabel="SuggestedTranslation">@context.SuggestedTranslation</MudTd>
+        <MudTd DataLabel="SuggestedTranslation">
+        @if (!IsEditing)
+        {
+           <MudText Typo="Typo.body2">@context.SuggestedTranslation</MudText> 
+
+        }
+        else
+        {
+            <MudTextField @bind-Value="@context.SuggestedTranslation" Variant="Variant.Filled"></MudTextField>
+
+
+        }
+        </MudTd>
+        <MudTd DataLabel="Actions">
+            @if (IsEditing)
+            {
+                <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Submit"  StartIcon="@Icons.Filled.Check" Size="Size.Small">Save</MudButton>
+            }
+            else
+            {
+                <MudButton Variant="Variant.Filled" Color="Color.Default" StartIcon="@Icons.Filled.Edit" OnClick="OnInputChanged" Size="Size.Small">Edit</MudButton>
+            }        </MudTd>
     </RowTemplate>
     <PagerContent>
         <MudTablePager />
@@ -28,9 +52,11 @@
 
 @code
 {
-    private bool FilterFunc1(JsonModel translation) => FilterFunc(translation, searchString);
+    private bool IsEditing;
 
-    public string searchString = "";
+    private bool FilterFunc1(JsonModel translation) => FilterFunc(translation, _searchString);
+
+    private string _searchString = "";
     private List<JsonModel> Translations = new List<JsonModel>();
 
     protected override async Task OnInitializedAsync()
@@ -43,6 +69,7 @@
             {
                 Id = i,
                 Type = "Action",
+                Name = "Name",
                 DefaultTranslation = "Default",
                 CurrentTranslation = "Current",
                 SuggestedTranslation = "Suggested"
@@ -69,4 +96,16 @@
             return true;
         return false;
     }
+
+    private void OnInputChanged()
+    {
+        IsEditing = !IsEditing;
+    }
+
+    private async Task Submit()
+    {
+        //TO Do...
+    }
+
+
 }
