@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dewin/Source/Repos/Organimmo/VivesVgt2/Organimmo/Organimmo.UI.Blazor/Shared/CultureDropDown.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1bHR1cmVEcm9wRG93bi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dewin/Source/Repos/Organimmo/VivesVgt2/Organimmo/Organimmo.UI.Blazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

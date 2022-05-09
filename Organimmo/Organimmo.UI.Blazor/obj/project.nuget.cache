@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "As5y7yiR934nyZjExi7P/RpsX4buvsxUUy4Q9EdTHcqIZc/3PC2Hvwo23owtxc9vqM+Yxy3/OttCiHOc9jPQuw==",
+  "dgSpecHash": "kDGJNUVjYns1yVBiY66xtf9NWlFvOL0CuAUsFNluPeB7ICkCp3p4QBLvl3kaPQPFi4zAS17TYVGDdhBseWeFMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dewin\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dewin\\.nuget\\packages\\blazored.localstorage\\4.2.0\\blazored.localstorage.4.2.0.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.1\\microsoft.aspnetcore.components.analyzers.6.0.1.nupkg.sha512",
@@ -22,8 +23,10 @@
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.localization\\6.0.4\\microsoft.extensions.localization.6.0.4.nupkg.sha512",
+    "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.4\\microsoft.extensions.localization.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
-    "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\dewin\\.nuget\\packages\\microsoft.jsinterop\\6.0.1\\microsoft.jsinterop.6.0.1.nupkg.sha512",
