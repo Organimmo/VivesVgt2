@@ -1,0 +1,136 @@
+﻿@page "/fetchOrganimmoData"
+@using System.Text.Json
+
+@inject HttpClient Http
+
+<h1>Organimmo json data</h1>
+
+@if (data == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>ApplicationName</th>
+                <th>ApplicationVersion</th>
+                <th>Customer</th>
+                <th>Username</th>
+                <th>Language</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@data.Id</td>
+                <td>@data.ApplicationName</td>
+                <td>@data.ApplicationVersion</td>
+                <td>@data.Customer</td>
+                <td>@data.Username</td>
+                <td>@data.Language</td>
+            </tr>        
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var wind in window)
+            {
+                <tr>
+                    <td>@wind.Name</td>
+                    <td>@wind.Title</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>BaseText</th>
+                <th>CurrentText</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.Type</td>
+                    <td>@item.Name</td>
+                    <td>@item.BaseText</td>
+                    <td>@item.CurrentText</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string jsonFile = "sample-data/data.json";
+
+    private Root? data;
+    private List<Window>? window;
+    private List<Item>? items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        data = await Http.GetFromJsonAsync<Root>(jsonFile);
+        window = data.Window;
+
+        foreach(var item in window)
+        {
+
+            items = item.Items;
+
+        }
+    }
+
+    public class Item
+    {
+        public string Type { get; set; }
+
+        public string Name { get; set; }
+
+        public string BaseText { get; set; }
+
+        public string CurrentText { get; set; }
+    }
+
+    public class Window
+    {
+        public string Name { get; set; }
+
+        public string Title { get; set; }
+
+        public List<Item> Items { get; set; }
+    }
+
+    public class Root
+    {
+        public Guid Id { get; set; }
+
+        public string ApplicationName { get; set; }
+
+        public string ApplicationVersion { get; set; }
+
+        public Guid Customer { get; set; }
+
+        public string Username { get; set; }
+
+        public string Language { get; set; }
+
+        public List<Window> Window { get; set; }
+    }
+}

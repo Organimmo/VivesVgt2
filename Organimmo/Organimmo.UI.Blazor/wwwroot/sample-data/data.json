@@ -1,0 +1,107 @@
+{
+	  "id": "42cf5092-33d9-4788-a084-15ba07021654",
+	  "ApplicationName": "Syndic",
+	  "ApplicationVersion": "22.4.0.0",
+	  "Customer": "dc8d4109-ac14-4d09-859c-bc6f87795ed3",
+	  "Username": "wim.devos@dataplan.be",
+	  "Language": "fr",
+	  "Window": [ 
+	    {
+	      "Name": "Syndic.Modules.NAW.FEditGebouw",
+	      "Title": "Gebouw",
+	      "Items": [
+	        {
+	          "Type": "Caption",
+	          "Name": "Caption",
+	          "BaseText": "Gebouw",
+	          "CurrentText": "Immeuble"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailAction_ChangeRequiredMajority",
+	          "BaseText": "Wijzig benodigde meerderheid",
+	          "CurrentText": "Wijzig benodigde meerderheid"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailTitle_Text",
+	          "BaseText": "Agendapunt",
+	          "CurrentText": "Agendapunt"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailToastContent_FullyCountedRegistred",
+	          "BaseText": "Volledig geteld geregistreerd",
+	          "CurrentText": "Volledig geteld geregistreerd"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailToastContent_RequiredMajorityChanged",
+	          "BaseText": "Benodigde meerderheid aangepast",
+	          "CurrentText": "Benodigde meerderheid aangepast"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailToastContent_VotePerLotActivated",
+	          "BaseText": "Stemmen per privatief",
+	          "CurrentText": "Stemmen per privatief"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailToastContent_VotePerOwnerActivated",
+	          "BaseText": "Stemmen per eigenaar",
+	          "CurrentText": "Stemmen per eigenaar"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailTotal_LabelOwners",
+	          "BaseText": "eigenaars",
+	          "CurrentText": "eigenaars"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemDetailTotal_LabelParts",
+	          "BaseText": "aandelen",
+	          "CurrentText": "aandelen"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemStatus_All",
+	          "BaseText": "Alle agendapunten",
+	          "CurrentText": "Alle agendapunten"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemStatus_Closed",
+	          "BaseText": "Gesloten",
+	          "CurrentText": "Gesloten"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemStatus_FullyCounted",
+	          "BaseText": "Geteld",
+	          "CurrentText": "Geteld"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemStatus_Open",
+	          "BaseText": "Open",
+	          "CurrentText": "Open"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemToastContent_ItemClosed",
+	          "BaseText": "Agendapunt gesloten",
+	          "CurrentText": "Agendapunt gesloten"
+	        },
+	        {
+	          "Type": "Action",
+	          "Name": "AgendaItemToastContent_ItemOpened",
+	          "BaseText": "Agendapunt geopend",
+	          "CurrentText": "Agendapunt geopend"
+	        }
+	      ]
+	    }
+	  ]
+	}
+
