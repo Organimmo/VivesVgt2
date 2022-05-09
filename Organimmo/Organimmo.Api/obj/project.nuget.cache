@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "10bgEUw/x30IGYX5YA0bobUo3cY4gq3bcHNirBwCMS0sr3ZEIDJoqydfGGlbO4QJkm4EAFxxmqvxV/6RJCadNQ==",
+  "dgSpecHash": "CyaOKP9rD/4tCSAM4zJszxbtnSfp/9jQ3A+mPNPpltit/CmX4R0CB5ckJml6VOFMD06JqIIKBZKya7P6iygLXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stoffel\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.Api\\Organimmo.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Stoffel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Stoffel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Stoffel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Stoffel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Stoffel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

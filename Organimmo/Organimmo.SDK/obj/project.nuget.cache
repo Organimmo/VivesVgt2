@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLp3zki7k61Nd1WvxkZeWf8dyIO2GPJzMfnm1C5xff7MQ0xpyOO2Ye+eFxXHtCY+kmCSZ5okzMxD7X876JyfKQ==",
+  "dgSpecHash": "w7Ojub5IZZkT36rVs69/AgWiYEOOWmrN+07/33ZUrho08uChT2zaPWjJKVikHHWmO2LmrRgkshvu3Yar+ez0lQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoffel\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.Dal\\Organimmo.Dal.csproj",
+  "projectFilePath": "C:\\Users\\Stoffel\\Source\\Repos\\VivesVgt2\\Organimmo\\Organimmo.SDK\\Organimmo.SDK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoffel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Stoffel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
