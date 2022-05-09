@@ -1,8 +1,8 @@
 ﻿@attribute [RouteAttribute(BlazorRoutes.Translations.Index)]
 
 @using MudBlazor
-
-<MudTable Items="@Translations" SortLabel="Sort By"  Filter="new Func<JsonModel,bool>(FilterFunc1)" >
+@inject ISnackbar SnackBar
+<MudTable Items="@Translations" CanCancelEdit="true" SortLabel="Sort By" FixedHeader="true"  Filter="new Func<JsonModel,bool>(FilterFunc1)" >
     <ToolBarContent>
         <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0 border bg-light"></MudTextField>
     </ToolBarContent>
@@ -13,7 +13,6 @@
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.DefaultTranslation)">Default Translation </MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.CurrentTranslation)">Current Translation</MudTableSortLabel></MudTh>
         <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.SuggestedTranslation)">Suggested Translation </MudTableSortLabel></MudTh>
-        <MudTh Class="fw-bold">Actions</MudTh>
     </HeaderContent>
     <RowTemplate>
         <MudTd  DataLabel="Id">@context.Id</MudTd>
@@ -22,37 +21,28 @@
         <MudTd DataLabel="DefaultTranslation">@context.DefaultTranslation</MudTd>
         <MudTd DataLabel="CurrentTranslation">@context.CurrentTranslation</MudTd>
         <MudTd DataLabel="SuggestedTranslation">
-        @if (!IsEditing)
-        {
-           <MudText Typo="Typo.body2">@context.SuggestedTranslation</MudText> 
-
-        }
-        else
-        {
-            <MudTextField @bind-Value="@context.SuggestedTranslation" Variant="Variant.Filled"></MudTextField>
-
-
-        }
+            <MudText Typo="Typo.body2">@context.SuggestedTranslation</MudText>
         </MudTd>
-        <MudTd DataLabel="Actions">
-            @if (IsEditing)
-            {
-                <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="Submit"  StartIcon="@Icons.Filled.Check" Size="Size.Small">Save</MudButton>
-            }
-            else
-            {
-                <MudButton Variant="Variant.Filled" Color="Color.Default" StartIcon="@Icons.Filled.Edit" OnClick="OnInputChanged" Size="Size.Small">Edit</MudButton>
-            }        </MudTd>
     </RowTemplate>
-    <PagerContent>
-        <MudTablePager />
-    </PagerContent>
+  
+    <RowEditingTemplate>
+        <MudTd  DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Type">@context.Type</MudTd>
+        <MudTd DataLabel="Type">@context.Name</MudTd>
+        <MudTd DataLabel="DefaultTranslation">@context.DefaultTranslation</MudTd>
+        <MudTd DataLabel="CurrentTranslation">@context.CurrentTranslation</MudTd>
+        <MudTd DataLabel="SuggestedTranslation">
+            <MudTextField @bind-Value="@context.SuggestedTranslation" Variant="Variant.Outlined" Required />
+        </MudTd>
+    </RowEditingTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{25, 50, 100}" />
+        </PagerContent>
 </MudTable>
-
 
 @code
 {
-    private bool IsEditing;
+    private JsonModel selectedItem = null;
 
     private bool FilterFunc1(JsonModel translation) => FilterFunc(translation, _searchString);
 
@@ -60,7 +50,7 @@
     private List<JsonModel> Translations = new List<JsonModel>();
 
     protected override async Task OnInitializedAsync()
-    {
+    { 
         await base.OnInitializedAsync();
         Translations = new List<JsonModel>();
         for (int i = 0; i < 1000; i++)
@@ -97,12 +87,7 @@
         return false;
     }
 
-    private void OnInputChanged()
-    {
-        IsEditing = !IsEditing;
-    }
-
-    private async Task Submit()
+    private void Submit()
     {
         //TO Do...
     }
