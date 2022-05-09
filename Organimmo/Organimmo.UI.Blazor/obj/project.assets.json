@@ -315,6 +315,15 @@
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -389,6 +398,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Organimmo.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Organimmo.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Organimmo.Services.dll": {}
         }
       }
     },
@@ -706,6 +728,15 @@
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -774,6 +805,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Organimmo.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Organimmo.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Organimmo.Services.dll": {}
         }
       }
     }
@@ -1382,6 +1426,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -1537,34 +1608,40 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Organimmo.Services/1.0.0": {
+      "type": "project",
+      "path": "../Organimmo.Services/Organimmo.Services.csproj",
+      "msbuildProject": "../Organimmo.Services/Organimmo.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.1",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.1"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.1",
+      "Organimmo.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stoffel\\.nuget\\packages\\": {},
+    "C:\\Users\\gevae\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stoffel\\source\\repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
       "projectName": "Organimmo.UI.Blazor",
-      "projectPath": "C:\\Users\\Stoffel\\source\\repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
-      "packagesPath": "C:\\Users\\Stoffel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stoffel\\source\\repos\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
+      "projectPath": "C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "packagesPath": "C:\\Users\\gevae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stoffel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gevae\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1579,7 +1656,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.Services\\Organimmo.Services.csproj": {
+              "projectPath": "C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.Services\\Organimmo.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1615,7 +1696,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.4, 6.0.4]"
+            "version": "[6.0.1, 6.0.1]"
           }
         ],
         "frameworkReferences": {
@@ -1623,7 +1704,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -1631,5 +1712,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\gevae\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.UI.Blazor\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
