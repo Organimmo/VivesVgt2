@@ -12,4 +12,8 @@
     <PackageReference Include="MudBlazor" Version="6.0.10-dev.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Organimmo.Services\Organimmo.Services.csproj" />
+  </ItemGroup>
+
 </Project>
