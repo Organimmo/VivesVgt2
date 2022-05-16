@@ -1,9 +1,96 @@
-﻿@page "/"
+﻿@attribute [RouteAttribute(BlazorRoutes.Translations.Index)]
 
-<PageTitle>Index</PageTitle>
+@using MudBlazor
+@inject ISnackbar SnackBar
+<MudTable Items="@Translations" CanCancelEdit="true" SortLabel="Sort By" FixedHeader="true"  Filter="new Func<JsonModel,bool>(FilterFunc1)" >
+    <ToolBarContent>
+        <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0 border bg-light"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Id)">Id</MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Type)">Type</MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel SortBy="new Func<JsonModel, object>(x => x.Type)">Name</MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.DefaultTranslation)">Default Translation </MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.CurrentTranslation)">Current Translation</MudTableSortLabel></MudTh>
+        <MudTh Class="fw-bold"><MudTableSortLabel Enabled="true" SortBy="new Func<JsonModel, object>(x => x.SuggestedTranslation)">Suggested Translation </MudTableSortLabel></MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd  DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Type">@context.Type</MudTd>
+        <MudTd DataLabel="Type">@context.Name</MudTd>
+        <MudTd DataLabel="DefaultTranslation">@context.DefaultTranslation</MudTd>
+        <MudTd DataLabel="CurrentTranslation">@context.CurrentTranslation</MudTd>
+        <MudTd DataLabel="SuggestedTranslation">
+            <MudText Typo="Typo.body2">@context.SuggestedTranslation</MudText>
+        </MudTd>
+    </RowTemplate>
+  
+    <RowEditingTemplate>
+        <MudTd  DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Type">@context.Type</MudTd>
+        <MudTd DataLabel="Type">@context.Name</MudTd>
+        <MudTd DataLabel="DefaultTranslation">@context.DefaultTranslation</MudTd>
+        <MudTd DataLabel="CurrentTranslation">@context.CurrentTranslation</MudTd>
+        <MudTd DataLabel="SuggestedTranslation">
+            <MudTextField @bind-Value="@context.SuggestedTranslation" Variant="Variant.Outlined" Required />
+        </MudTd>
+    </RowEditingTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{25, 50, 100}" />
+        </PagerContent>
+</MudTable>
 
-<h1>Hello, world!</h1>
+@code
+{
+    private JsonModel selectedItem = null;
 
-Welcome to your new app.
+    private bool FilterFunc1(JsonModel translation) => FilterFunc(translation, _searchString);
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    private string _searchString = "";
+    private List<JsonModel> Translations = new List<JsonModel>();
+
+    protected override async Task OnInitializedAsync()
+    { 
+        await base.OnInitializedAsync();
+        Translations = new List<JsonModel>();
+        for (int i = 0; i < 1000; i++)
+        {
+            JsonModel employee = new JsonModel
+            {
+                Id = i,
+                Type = "Action",
+                Name = "Name",
+                DefaultTranslation = "Default",
+                CurrentTranslation = "Current",
+                SuggestedTranslation = "Suggested"
+            };
+            Translations.Add(employee);
+
+        }
+    }
+
+
+    private bool FilterFunc(JsonModel translation, string searchString)
+    {
+        if (string.IsNullOrWhiteSpace(searchString))
+            return true;
+        if (translation.Type.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (translation.DefaultTranslation.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (translation.CurrentTranslation.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (translation.SuggestedTranslation.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if ($"{translation.Id} {translation.Id}".Contains(searchString))
+            return true;
+        return false;
+    }
+
+    private void Submit()
+    {
+        //TO Do...
+    }
+
+
+}
