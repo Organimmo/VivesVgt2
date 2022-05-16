@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6h1fQphKvjjXtLR8BqoHriLkitxrvV8T4Uia1O4DZvg=",
+  "Hash": "RLhZ8rmZQeyecg+zZoUicIhU3K+FTC57ehCh5OW9Qqs=",
   "Source": "Organimmo.UI.Blazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7121,6 +7121,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\wwwroot\\sample-data\\data.json",
+      "SourceId": "Organimmo.UI.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sample-data/data.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-data\\data.json"
     },
     {
       "Identity": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\wwwroot\\sample-data\\weather.json",
