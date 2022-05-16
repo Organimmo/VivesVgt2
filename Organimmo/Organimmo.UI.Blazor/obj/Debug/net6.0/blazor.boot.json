@@ -199,13 +199,13 @@
       "mscorlib.dll": "sha256-Q4A\/043fz702a7DDbm+JAtMHV3jKAZ9k8khztTMKp2M=",
       "netstandard.dll": "sha256-W9cwgVmBZsddVw3WVFMC5Gya92UufvbVTNR4+u7pnR0=",
       "System.Private.CoreLib.dll": "sha256-KVnZkFos\/ML\/3S2isVijfmFZXO4zEQeCga6BZvGdTbY=",
-      "Organimmo.UI.Blazor.dll": "sha256-trvcNspHdVzhBtlOfNqK\/irbK2Yvied8vX7Ssn2F9UQ="
+      "Organimmo.UI.Blazor.dll": "sha256-ZKb\/yJV6OpE6akowKrDgYLHwbuj2F\/L6xBAB9ze2VH0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Organimmo.UI.Blazor.pdb": "sha256-u2buC\/bDipxKo3XyKfvK25NAYL0H5oUBVafg4DN5fGI="
+      "Organimmo.UI.Blazor.pdb": "sha256-b1pN5bbnAd\/P66pWRnxgLdRJEv4B7h\/PLgMTfXE70yw="
     },
     "runtime": {
       "dotnet.6.0.4.48lkkkr6a2.js": "sha256-WYno\/cK5MDsl5yi4T\/\/QgUskbBfhLL77i+c0uKzO9+c=",
@@ -218,10 +218,10 @@
     },
     "satelliteResources": {
       "fr": {
-        "fr\/Organimmo.UI.Blazor.resources.dll": "sha256-xX7tJIihpnKHaGWTTl47tFjfaEPK7XpzWMvST68Ktf4="
+        "fr\/Organimmo.UI.Blazor.resources.dll": "sha256-uR2+Hf9YQDXUYRQX+6ee5XSwef1SBm6fudVNgJ9QZsM="
       },
       "nl": {
-        "nl\/Organimmo.UI.Blazor.resources.dll": "sha256-DljnKDW\/be72Wd3xMxSPkkTaT90T3Bdj7Bpj6MijxQM="
+        "nl\/Organimmo.UI.Blazor.resources.dll": "sha256-vK9f0ehBv+cBo79WRm1jCbEFcFEV3eqr5P1FQI\/fBY8="
       }
     }
   }

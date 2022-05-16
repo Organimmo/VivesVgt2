@@ -17,6 +17,7 @@ namespace Organimmo.UI.Blazor.Extensions
 
             if(cultureFromLS != null)
             {
+                // remembers what language was used last time before exit application
                 culture =  new CultureInfo(cultureFromLS);
             }
             else

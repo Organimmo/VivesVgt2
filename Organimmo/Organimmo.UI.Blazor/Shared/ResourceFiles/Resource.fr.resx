@@ -117,8 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="clickme" xml:space="preserve">
+    <value>Clique moi!</value>
+  </data>
+  <data name="counter" xml:space="preserve">
+    <value>Compteur</value>
+  </data>
+  <data name="currentcount" xml:space="preserve">
+    <value>Lecture de compteur</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
   <data name="helloworld" xml:space="preserve">
     <value>Bonjour le monde!</value>
+  </data>
+  <data name="infofetch" xml:space="preserve">
+    <value>Ce composant montre comment il récupère les données du serveur.</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="weatherforecast" xml:space="preserve">
+    <value>Prévisions Météorologiques</value>
   </data>
   <data name="welcome" xml:space="preserve">
     <value>Bienvenue dans votre nouvelle application!</value>

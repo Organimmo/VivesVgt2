@@ -4,7 +4,7 @@
 
 
 <strong>Language:</strong>
-<select class="form-control" @bind= "Culture" style = "width: 300px; margin-left: 10px;">
+<select class="form-control" @bind= "Culture" style = "width: 200px; margin-left: 10px;">
     @foreach(var culture in cultures)
     {
         <option value = "@culture">@culture.DisplayName</option>
@@ -15,7 +15,8 @@
     CultureInfo[] cultures = new[]
             {
         new CultureInfo("fr-FR"),
-        new CultureInfo("nl-NL")
+        new CultureInfo("nl-NL"),
+        new CultureInfo("en-EN")
     };
 
     CultureInfo Culture

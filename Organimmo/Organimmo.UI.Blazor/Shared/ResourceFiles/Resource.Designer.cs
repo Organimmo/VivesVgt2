@@ -61,11 +61,74 @@ namespace Organimmo.UI.Blazor.Shared.ResourceFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Click me!.
+        /// </summary>
+        public static string clickme {
+            get {
+                return ResourceManager.GetString("clickme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Counter.
+        /// </summary>
+        public static string counter {
+            get {
+                return ResourceManager.GetString("counter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current count.
+        /// </summary>
+        public static string currentcount {
+            get {
+                return ResourceManager.GetString("currentcount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date.
+        /// </summary>
+        public static string date {
+            get {
+                return ResourceManager.GetString("date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello World!.
         /// </summary>
         public static string helloworld {
             get {
                 return ResourceManager.GetString("helloworld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This component demonstrates fetching data from the server..
+        /// </summary>
+        public static string infofetch {
+            get {
+                return ResourceManager.GetString("infofetch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Summary.
+        /// </summary>
+        public static string summary {
+            get {
+                return ResourceManager.GetString("summary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weather Forecast.
+        /// </summary>
+        public static string weatherforecast {
+            get {
+                return ResourceManager.GetString("weatherforecast", resourceCulture);
             }
         }
         
