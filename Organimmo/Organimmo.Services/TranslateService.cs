@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Organimmo.Services.Abstractions;
+﻿using Organimmo.Services.Abstractions;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;

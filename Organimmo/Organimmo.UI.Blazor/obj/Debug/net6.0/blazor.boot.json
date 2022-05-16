@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-Q4A\/043fz702a7DDbm+JAtMHV3jKAZ9k8khztTMKp2M=",
       "netstandard.dll": "sha256-W9cwgVmBZsddVw3WVFMC5Gya92UufvbVTNR4+u7pnR0=",
       "System.Private.CoreLib.dll": "sha256-KVnZkFos\/ML\/3S2isVijfmFZXO4zEQeCga6BZvGdTbY=",
-      "Organimmo.Services.dll": "sha256-2YkCNyQzQz\/3bcjQIROyJNU5Hv\/5zgqKyXs\/xpWLVu0=",
-      "Organimmo.UI.Blazor.dll": "sha256-MPoFainagyhemgh5DwHPdlniT2dH7tXMFM0d30nW8\/M="
+      "Organimmo.Services.dll": "sha256-L1U2yA+g3L5JSzIW3obZreOpBShOaq8swQ\/v0Gt5OgM=",
+      "Organimmo.UI.Blazor.dll": "sha256-S40Sqo7jSqViiirRzYAyiWMyjXWsWSyF6kM6Gf\/8iFs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Organimmo.Services.pdb": "sha256-yPj5VVLeurXnZQUITXEJR6zmcySjQDOTUPWnD2YcDRg=",
-      "Organimmo.UI.Blazor.pdb": "sha256-zL5sRurbS21ZXVepXghH66InUAzPiF89daV5j0YwcVQ="
+      "Organimmo.Services.pdb": "sha256-qj0elRmemZcV+nYLSxe7uN9+3MaPCcUlkIVps4UmqIA=",
+      "Organimmo.UI.Blazor.pdb": "sha256-aoUUqzTIdyJXtq8sAQukb39C+3ZeG6mb9fmIDTI3NOk="
     },
     "runtime": {
       "dotnet.6.0.4.t329ydy05u.js": "sha256-WYno\/cK5MDsl5yi4T\/\/QgUskbBfhLL77i+c0uKzO9+c=",
