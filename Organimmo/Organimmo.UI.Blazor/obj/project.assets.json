@@ -1551,11 +1551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\32479\\Source\\Repos\\Voortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
       "projectName": "Organimmo.UI.Blazor",
-      "projectPath": "C:\\Users\\32479\\Source\\Repos\\Voortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
+      "projectPath": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\Organimmo.UI.Blazor.csproj",
       "packagesPath": "C:\\Users\\32479\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\32479\\Source\\Repos\\Voortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
+      "outputPath": "C:\\Users\\32479\\Desktop\\OrganimmoVoortgangstoets\\Organimmo\\Organimmo.UI.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\32479\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1607,7 +1607,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.4, 6.0.4]"
+            "version": "[6.0.5, 6.0.5]"
           }
         ],
         "frameworkReferences": {
@@ -1615,7 +1615,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
