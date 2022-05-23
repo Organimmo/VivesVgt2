@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t73VZpvk7uiyJzzqExAd3dbQ1htUsbIS4An6J9HwfR4jAN9X4y6tAoxm4WJMWloK0vmZBOT++xLlf7GcS0ZzEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dewin\\Source\\Repos\\Organimmo\\VivesVgt2\\Organimmo\\Organimmo.Services\\Organimmo.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dewin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

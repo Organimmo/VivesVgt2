@@ -218,10 +218,10 @@
     },
     "satelliteResources": {
       "fr": {
-        "fr\/Organimmo.UI.Blazor.resources.dll": "sha256-uR2+Hf9YQDXUYRQX+6ee5XSwef1SBm6fudVNgJ9QZsM="
+        "fr\/Organimmo.UI.Blazor.resources.dll": "sha256-tpH3fJ+ohlP6bV5Skwi0B1pK1M8RmYm7wLZP1IdhRlE="
       },
       "nl": {
-        "nl\/Organimmo.UI.Blazor.resources.dll": "sha256-vK9f0ehBv+cBo79WRm1jCbEFcFEV3eqr5P1FQI\/fBY8="
+        "nl\/Organimmo.UI.Blazor.resources.dll": "sha256-uM4Xn5MHDEAEj5v4OUBJbAVqVIt\/cQboJwHVdjSFH+E="
       }
     }
   }
